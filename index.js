@@ -9,7 +9,7 @@ class RequireOverrideError extends Error { }
 
 class RequireOverride {
 	constructor(dirname) {
-		this.detectPackage(dirname);
+		this.setPath(dirname);
 	}
 
 	setPath(path) {
