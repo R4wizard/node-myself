@@ -1,5 +1,5 @@
 {
-  "name": "require-me",
+  "name": "myself",
   "version": "1.0.0",
   "description": "allows requiring of the current module by the name specified in the package.json",
   "main": "index.js",

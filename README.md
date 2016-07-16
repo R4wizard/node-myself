@@ -1,4 +1,4 @@
-# node-require-me
+# node-myself
 
 > allows requiring of the current module by the name specified in the package.json
 
@@ -15,11 +15,11 @@ const OurFramework = require('our-framework');
 
 Usage is fairly simple, in your main file (`index.js`) you should simply add this line of code:
 ```js
-require('require-me')(__dirname);
+require('myself')(__dirname);
 ```
 
 ## Documentation
-The `require-me` package exports a single function, that accepts a single argument:
+The `myself` package exports a single function, that accepts a single argument:
 
 ### require_me(string rootPath)
 **rootPath**: The root folder of your project, this folder will be scanned for a package.json file and will be processed.
