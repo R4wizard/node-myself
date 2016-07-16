@@ -35,10 +35,10 @@ This function returns an object of the following format:
 ### Instance
 Once initialised, the interceptor provides a set of methods for handling updates:
 
-### setPath(string rootPath)
+#### setPath(string rootPath)
 **rootPath**: The root folder of your project, this folder will be scanned for a package.json file and will be processed.
 
 Updates the root path of the running instance. This will automatically trigger package redetection.
 
-### detectPackage()
+#### detectPackage()
 Attempt to detect the `package.json` file in the root path. If found, the interceptor will be updated. If not found, an error will be thrown.
