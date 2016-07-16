@@ -1,10 +1,10 @@
 {
   "name": "require-me",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "allows requiring of the current module by the name specified in the package.json",
   "main": "index.js",
   "author": "Peter Corcoran <peter@lemondigits.com>",
-  "license": "LGPL",
+  "license": "LGPL-3.0",
   "dependencies": {
     "findup-sync": "^0.4.2"
   }
