@@ -1,9 +1,5 @@
 # node-require-me
 
-
-
-# node-require-me
-
 > allows requiring of the current module by the name specified in the package.json
 
 When developing a node.js package, you will often find it is a nightmare to refer to your package from within itself. You will often resort to code like:
